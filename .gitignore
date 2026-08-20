@@ -1,0 +1,35 @@
+# Runtime configuration / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+
+# Runtime data
+storage/logs/*
+!storage/logs/.gitkeep
+storage/documents/
+
+# Dependencies / build caches
+node_modules/
+/vendor/
+
+# Local exports / backups
+*.tmp
+*.temp
+*.log
+*.bak
+*.sql
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Local tools / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
